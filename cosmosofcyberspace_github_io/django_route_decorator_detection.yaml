@@ -20,18 +20,18 @@ rules:
   languages:
   - js
   - javascript
-  metadata:
-    category: security
-    subcategory:
-    - vuln
-    cwe:
-    - 'CWE 525: Use of Web Browser Cache Containing Sensitive Information'
-    confidence: MEDIUM
-    likelihood: MEDIUM
-    impact: HIGH
-    technology:
-    - express
-    - nodejs
-    source_rule_url: https://cosmosofcyberspace.github.io/semgrep/nodejs/express/express.html
-    references:
-    - https://cosmosofcyberspace.github.io/semgrep/nodejs/express/express.html
+metadata:
+  category: security
+  subcategory:
+  - vuln
+  cwe:
+  - 'CWE 525: Use of Web Browser Cache Containing Sensitive Information'
+  confidence: MEDIUM
+  likelihood: MEDIUM
+  impact: HIGH
+  technology:
+  - express
+  - nodejs
+  source_rule_url: https://cosmosofcyberspace.github.io/semgrep/nodejs/express/express.html
+  references:
+  - https://cosmosofcyberspace.github.io/semgrep/nodejs/express/express.html
